@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>World Of Cakes</title>
+    <!-- ==== CSS ==== -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <h1 class="Logo">CAKES WORLD</h1>
+      <ul class="nav-links">
+        <li class="active"><a href="#"></a>Home</li>
+        <li><a href="#"></a>Kinds</li>
+        <li><a href="#"></a>Explore</li>
+        <li><a href="#"></a>About</li>
+        <li class="ctn"><a href="#"></a>Contact</li>
+      </ul>
+      <img
+        src="https://i.postimg.cc/RZDNxpy5/menu-icon-png-3-lines-11552739283bazga05wbc.png"
+        alt=""
+        class="menu-btn"
+      />
+    </nav>
+    <header>
+      <div class="header-content">
+        <h2>Explore The Colourful World Of Cakes</h2>
+        <div class="line"></div>
+        <h1>Beautiful and Yummy</h1>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </header>
+
+    <!-- == Events == -->
+    <section class="events">
+      <div class="title">
+        <h1>Upcoming Events</h1>
+        <div class="line"></div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <img src="https://i.postimg.cc/ryHHfJ3H/download-2.jpg" alt="" />
+          <h4>Lois's Wedding Event</h4>
+          <p>
+            CAKES WORLD will be hosting a grand wedding ball for Lois and
+            Louis.You are invited
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+        <div class="col">
+          <img src="https://i.postimg.cc/0j3tzWGw/download-1.jpg" alt="" />
+          <h4>Beautiful Duo Annicersary</h4>
+          <p>
+            CAKES WORLD will be hosting the 50th wedding anniversary for Oluchi
+            Okereke and Ikechukwu Okereke.You are invited
+          </p>
+          <a href="#" class="ctn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="Explore">
+      <div class="explore-content">
+        <h1>TASTE IT!!</h1>
+        <div class="line"></div>
+        <p>
+          CAKES WORLD cakes provides a little bliss in every bite.With a perfect
+          balance of apperance,texture and flavour,it has nothing but the best
+          and freshest ingredients,meticulously mixed in the right proportions
+          and baked to flawless perfection.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+    </section>
+    <section class="CakeRecipes">
+      <div class="row">
+        <div class="col content-col">
+        <h1>Upcoming Cake Recipes</h1>
+        <div class="line"></div>
+        <p>
+          CAKES WORLD will be bringing in new styles and recipes for a new set
+          of cakes.Stay tuned for lasting sweetness.
+        </p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="col image-col">
+        <div class="image-gallery">
+          <img src="https://i.postimg.cc/sXrdm1CH/images-1.jpg" alt="">
+          <img src="https://i.postimg.cc/YCDQQmYk/images-2.jpg" alt="">
+          <img src="https://i.postimg.cc/7YMFPq7S/images-4.jpg" alt="">
+          <img src="https://i.postimg.cc/tghPwv8R/images-3.jpg" alt="">
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <p>9, Paradise street,Off College Bus-stop,Ikotun,Lagos,Nigeria | Phone:09093614027 | Email Address: okerekelois2@gmail.com</p>
+      <p>Copyright 2022 CAKES WORLD Sweetness</p>
+    </section>
+
+    <script>
+      const menuBtn = document.querySelector(".menu.btn");
+      const navlinks = documents.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
