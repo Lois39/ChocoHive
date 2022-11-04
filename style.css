@@ -1,3 +1,4 @@
+
 /* goolgle fonts */
 @import url(esDT31xSG-6AGleN2tCklZUCGpG-GQ.ttf);
 
@@ -195,7 +196,7 @@ header{
     }
 
 /* Moblie device */
-@media only screen and (max-width:850px){
+@media(max-width:700px){
     .menu-btn{
         display: block;
     }
@@ -209,12 +210,18 @@ header{
     }
     .nav-links{
         flex-direction: column;
-        width: 100%;
+        width: 200px;
         height:100vh;
         justify-content: center;
         background: #484872;
         margin-top: -900px;
         transition: all 0.5s ease;
+        position: absolute;
+        position: absolute;
+        top: 0;
+        right: 0;
+        text-align: left;
+        z-index: 2;
     }
     .mobile-menu{
         margin-top: 0px;
@@ -222,6 +229,7 @@ header{
     }
     .nav-links li{
         margin: 30px auto;
+        display: block;
     }
     /* Events */
     .row{
@@ -250,4 +258,5 @@ header{
     .footer{
         padding:10px;
     }
+
 }
