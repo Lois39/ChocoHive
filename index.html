@@ -4,183 +4,281 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>World Of Chocolates</title>
+    <title>World of Chocolates</title>
     <!-- ==== CSS ==== -->
     <link rel="stylesheet" href="./style.css" />
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-  />
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <h1 class="Logo">ChocoHive</h1>
+      <h1 class="logo">ChocoHive</h1>
       <ul class="nav-links">
         <li class="close-btn">✖</li>
-        <li class="active"><a href="#"></a>Home</li>
-        <li><a href="#"></a>Shop</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Gallery</li>
-        <li class="ctn"><a href="#"></a>Contact</li>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#contact" class="ctn">Contact</a></li>
       </ul>
       <span class="menu-btn">☰</span>
     </nav>
+
+    <!-- Hero Section -->
     <header>
       <div class="header-content">
-        <h2>Explore The Colourful World Of Chocolates</h2>
+        <h2>Explore the Colourful World of Chocolates</h2>
         <div class="line"></div>
-        <h1>Such A Beautiful Delight</h1>
-        <a href="#" class="ctn">Learn More</a>
+        <h1>Such a Beautiful Delight</h1>
+        <a href="#shop" class="ctn">Shop Now</a>
       </div>
     </header>
 
-    <!-- == Events == -->
-    <section class="events">
+    <!-- Shop Section -->
+    <section id="shop" class="shop">
       <div class="title">
         <h1>Shop Our Chocolates</h1>
         <div class="line"></div>
       </div>
       <div class="row">
         <div class="col">
-          <img src="images/1346002.png"
-           class="event-img"/>
-           <div class="event-content">
-          <h1>Lois's Wedding Event</h1>
-          <p>
-            CAKES WORLD will be hosting a grand wedding ball for Lois and
-            Louis.You are invited
-          </p>
-          <a href="#" class="ctn">Learn More</a>
-        </div>
+          <img src="images/1346002.png" alt="Chocolate 1" class="shop-img" />
+          <div class="shop-content">
+            <h3>Dark Chocolate</h3>
+            <p>Rich and decadent dark chocolate for true connoisseurs.</p>
+            <a href="#" class="ctn">Buy Now</a>
+          </div>
         </div>
         <div class="col">
-          <img src="images/1345999.png"
-           alt="" class="event-img"/>
-           <div class="event-content">
-          <h1>Beautiful Duo Annicersary</h1>
-          <p>
-            CAKES WORLD will be hosting the 50th wedding anniversary for Oluchi
-            Okereke and Ikechukwu Okereke.You are invited
-          </p>
-          <a href="#" class="ctn">Learn More</a>
+          <img src="images/1345999.png" alt="Chocolate 2" class="shop-img" />
+          <div class="shop-content">
+            <h3>Milk Chocolate</h3>
+            <p>Smooth and creamy milk chocolate for a sweet treat.</p>
+            <a href="#" class="ctn">Buy Now</a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/chocolate-cake_955152-999.jpg" alt="Chocolate 2" class="shop-img" />
+          <div class="shop-content">
+            <h3>Milk Chocolate</h3>
+            <p>Smooth and creamy milk chocolate for a sweet treat.</p>
+            <a href="#" class="ctn">Buy Now</a>
+          </div>
+        </div>
+        <div class="col">
+          <img src="images/chocolate-cake-with-cherry_1048128-69.jpg" alt="Chocolate 2" class="shop-img" />
+          <div class="shop-content">
+            <h3>Milk Chocolate</h3>
+            <p>Smooth and creamy milk chocolate for a sweet treat.</p>
+            <a href="#" class="ctn">Buy Now</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="about">
-      <div class="about-main">
-        <div class="about-image">
-          <img src="images/delicious-chocolate-cake-isolated-transparent-background_625492-78457_prev_ui.png" alt="">
-        </div>
-      <div class="about-text">
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="about-content">
         <h1>About Us</h1>
-        <h3>Why Choose Us</h3>
+        <div class="line"></div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit.
-           Beatae repellendus deleniti mollitia, suscipit et 
-           molestiae dolorem voluptas, voluptatibus id aut quod soluta, 
-          esse earum accusantium! Debitis odio quos sunt excepturi!
+          At ChocoHive, we craft the finest chocolates using the best ingredients.
+          Our passion for chocolate is reflected in every bite. Join us on this
+          delicious journey!
         </p>
+        <a href="#contact" class="ctn">Learn More</a>
       </div>
+      <div class="about-image">
+        <img src="images/delicious-chocolate-cake-isolated-transparent-background_625492-78457_prev_ui.png" alt="About Image" />
       </div>
-      <a href="#" class="ctn">Learn More</a>
     </section>
 
-    <section class="Explore">
-      <div class="explore-content">
-        <h1>TASTE IT!!</h1>
+    <section id="gallery" class="gallery">
+      <div class="title">
+        <h1>Our Gallery</h1>
         <div class="line"></div>
-        <p>
-          CAKES WORLD cakes provides a little bliss in every bite.With a perfect
-          balance of apperance,texture and flavour,it has nothing but the best
-          and freshest <br> ingredients,meticulously mixed in the right proportions
-          and baked to flawless perfection.
-        </p>
-        <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="gallery-grid">
+        <img src="images/HD-wallpaper-raspberry-chocolate-cake-sweets-pastries-chocolate-cake-raspberry-chocolate-cream.jpg" alt="Gallery 1" />
+        <img src="images/04bf476811d92188fff13042975da699.jpg" alt="Gallery 2" />
+        <img src="images/chocolate-cake-with-dollop-whipped-cream-top_717440-4416.jpg" alt="Gallery 3" />
+        <img src="images/pngtree-chocolate-cherry-cake-wallpapers-hd-image_2533433.jpg" alt="Gallery 4" />
       </div>
     </section>
-    <section class="CakeRecipes">
-      <div class="row">
-        <div class="col content-col">
-        <h1>Upcoming Cake Recipes</h1>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="title">
+        <h1>What Our Customers Say</h1>
         <div class="line"></div>
-        <p class="cake-p">
-          CAKES WORLD will be bringing in new styles and recipes for a new set
-          of cakes.Stay tuned for lasting sweetness.
-        </p>
-        <a href="#" class="ctn">Learn More</a>
       </div>
-      <div class="col image-col">
-        <div class="image-gallery">
-          <img src="images/HD-wallpaper-raspberry-chocolate-cake-sweets-pastries-chocolate-cake-raspberry-chocolate-cream.jpg" alt="">
-          <img src="images/04bf476811d92188fff13042975da699.jpg" alt="">
-          <img src="images/chocolate-cake-with-dollop-whipped-cream-top_717440-4416.jpg" alt="">
-          <img src="images/pngtree-chocolate-cherry-cake-wallpapers-hd-image_2533433.jpg" alt="">
+      <div class="row">
+        <div class="col">
+          <div class="testimonial">
+            <img src="./images/user1.png" alt="User 1" />
+            <p>
+              "The best chocolates I've ever tasted! Highly recommend ChocoHive."
+            </p>
+            <h4>- Jane Doe</h4>
+          </div>
+        </div>
+        <div class="col">
+          <div class="testimonial">
+            <img src="./images/user2.png" alt="User 2" />
+            <p>"Amazing quality and service. I'm a loyal customer now!"</p>
+            <h4>- John Smith</h4>
+          </div>
+        </div>
+        <div class="col">
+          <div class="testimonial">
+            <img src="./images/user3.png" alt="User 3" />
+            <p>"Perfect for gifting. Everyone loves ChocoHive chocolates."</p>
+            <h4>- Emily Brown</h4>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contact">
-      <h2>Contact Us</h2>
-      <div class="line"></div>
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+      <div class="title">
+        <h1>Latest Blog Posts</h1>
+        <div class="line"></div>
+      </div>
       <div class="row">
-        <div class="contact-col">
+        <div class="col">
+          <div class="blog-post">
+            <img src="./images/chocolate-cake-white-plate-wooden-background_985688-1026.jpg" alt="Blog 1" />
+            <h3>Top 5 Chocolate Trends in 2023</h3>
+            <p>Discover the latest trends in the world of chocolates.</p>
+            <a href="#" class="ctn">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="blog-post">
+            <img src="./images/chocolate-cake-with-dollop-whipped-cream-top_717440-4416.jpg" alt="Blog 2" />
+            <h3>How to Pair Chocolate with Wine</h3>
+            <p>Learn the art of pairing chocolates with the perfect wine.</p>
+            <a href="#" class="ctn">Read More</a>
+          </div>
+        </div>
+        <div class="col">
+          <div class="blog-post">
+            <img src="./images/chocolate-ice-cream.jpg" alt="Blog 3" />
+            <h3>The Health Benefits of Dark Chocolate</h3>
+            <p>Find out why dark chocolate is good for your health.</p>
+            <a href="#" class="ctn">Read More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+      <div class="faq-content">
+        <div class="titles">
+          <h1>Frequently Asked Questions</h1>
+          <div class="line"></div>
+        </div>
+        <div class="faq-item">
+          <h3>What ingredients do you use?</h3>
+          <p>We use only the finest, natural ingredients in our chocolates.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you offer vegan options?</h3>
+          <p>Yes, we have a range of vegan-friendly chocolates.</p>
+        </div>
+        <div class="faq-item">
+          <h3>How can I track my order?</h3>
+          <p>You will receive a tracking number once your order is shipped.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscription Section -->
+    <section class="subscription">
+      <div class="title">
+        <h1>Subscribe to Our Newsletter</h1>
+        <div class="line"></div>
+      </div>
+      <form class="subscription-form">
+        <input type="email" placeholder="Enter your email" required />
+        <button type="submit" class="ctn">Subscribe</button>
+      </form>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="title">
+        <h1>Contact Us</h1>
+        <div class="line"></div>
+      </div>
+      <div class="contact-content">
+        <div class="contact-info">
           <div>
-            <i class="fa fa-home"></i>
+            <i class="fas fa-map-marker-alt"></i>
             <span>
-              <h5>9, Paradise street,Off College Bus-stop,Ikotun</h5>
-              <p>Lagos,Nigeria</p>
+              <h5>9, Paradise Street, Off College Bus-stop, Ikotun</h5>
+              <p>Lagos, Nigeria</p>
             </span>
           </div>
           <div>
-            <i class="fa fa-phone"></i>
+            <i class="fas fa-phone"></i>
             <span>
               <h5>+2349120838407</h5>
               <p>Monday to Friday, 9AM to 8PM</p>
             </span>
           </div>
           <div>
-            <i class="fa fa-envelope"></i>
+            <i class="fas fa-envelope"></i>
             <span>
-              <h5>info@okerekelois2@gmail.com</h5>
-              <p>Email Us Your Query</p>
+              <h5>info@chocohive.com</h5>
+              <p>Email us your query</p>
             </span>
           </div>
         </div>
-        <img src="images/chocolate-gelato-in-bowl-with-cherries_1.jpg" 
-        class="contact-img" alt="">
+        <form class="contact-form">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit" class="ctn">Send Message</button>
+        </form>
       </div>
+    </section>
 
-    </section>
-  
-    <section class="footer">
-      <div class="icons">
-        <i class="fa fa-facebook"></i>
-        <i class="fa fa-linkedin"></i>
-        <i class="fa fa-twitter"></i>
-        <i class="fa fa-instagram"></i>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
-      <p>Copyright 2022 @CAKES WORLD Sweetness</p>
-    </section>
+      <p>&copy; 2023 ChocoHive. All Rights Reserved.</p>
+    </footer>
 
     <script>
-      // Select the menu button and the navigation links
-const menuBtn = document.querySelector('.menu-btn');
-const navLinks = document.querySelector('.nav-links');
-const closeBtn = document.querySelector('.close-btn');
+      const menuBtn = document.querySelector(".menu-btn");
+      const navLinks = document.querySelector(".nav-links");
+      const closeBtn = document.querySelector(".close-btn");
 
-// Add click event listener to the menu button
-menuBtn.addEventListener('click', () => {
-    navLinks.classList.toggle('active'); // Toggle the 'active' class
-});
+      menuBtn.addEventListener("click", () => {
+        navLinks.classList.add("active");
+      });
 
-// Close menu when the close button is clicked
-closeBtn.addEventListener('click', () => {
-    navLinks.classList.remove('active'); // Hide menu
-});
-
+      closeBtn.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+      });
     </script>
   </body>
 </html>
